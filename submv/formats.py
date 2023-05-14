@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 import re
 
-def srt_parser(file, text, shift, *kwargs):
+def srt_parser(file, text, shift, **kwargs):
     """
     Parser for SubRip (.srt) and WebVTT (.vtt) files.
     """
